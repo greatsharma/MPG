@@ -1,0 +1,6 @@
+SEED = 42
+NUM_FOLDS = 5
+DROP_DUPLICATES = True
+DROP_NANS = True
+METRIC = 'r2'
+LOSS = 'mae'
