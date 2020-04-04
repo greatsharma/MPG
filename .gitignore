@@ -136,10 +136,11 @@ docs/
 
 # input data and models
 Analysis/
-input/
-models/
-meta/
 img/
+input/
+logs/
+meta/
+models/
 notebooks/
 
 # data files
@@ -148,4 +149,5 @@ notebooks/
 *.pkl
 *.pth
 
+# shell scripts
 *.sh
