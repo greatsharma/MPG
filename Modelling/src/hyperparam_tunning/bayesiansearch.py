@@ -1,1 +1,1 @@
-# not implemented
+print("\nnot implemented yet\n")

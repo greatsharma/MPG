@@ -142,6 +142,8 @@ logs/
 meta/
 models/
 notebooks/
+tmp/
+out/
 
 # data files
 *.csv

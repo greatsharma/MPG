@@ -31,28 +31,28 @@ param_grid = [
     },
     {
         'estimator': [ensemble.RandomForestRegressor(random_state=global_var.SEED, n_jobs=-1)],
-        'estimator__n_estimators': [i for i in range(50,201,50)],
+        'estimator__n_estimators': [i for i in range(50,151,50)],
         'estimator__max_depth': range(4, 9),
-        'estimator__min_samples_split': [i for i in range(8, 17, 2)],
+        'estimator__min_samples_split': [i for i in range(8, 15, 2)],
         'estimator__max_leaf_nodes':[i for i in range(8,15,2)],
     },
     {
         'estimator': [ensemble.ExtraTreesRegressor(random_state=global_var.SEED, n_jobs=-1)],
-        'estimator__n_estimators': [i for i in range(50,201,50)],
+        'estimator__n_estimators': [i for i in range(50,151,50)],
         'estimator__max_depth': range(4, 9),
-        'estimator__min_samples_split': [i for i in range(8, 17, 2)],
+        'estimator__min_samples_split': [i for i in range(8, 15, 2)],
         'estimator__max_leaf_nodes':[i for i in range(8,15,2)],
     },
     {
         'estimator': [ensemble.GradientBoostingRegressor(random_state=global_var.SEED)],
-        'estimator__n_estimators': [i for i in range(50,201,50)],
+        'estimator__n_estimators': [i for i in range(50,151,50)],
         'estimator__max_depth': range(4, 9),
-        'estimator__min_samples_split': [i for i in range(8, 17, 2)],
+        'estimator__min_samples_split': [i for i in range(8, 15, 2)],
         'estimator__max_leaf_nodes':[i for i in range(8,15,2)],
     },
     {
         'estimator': [ensemble.AdaBoostRegressor(random_state=global_var.SEED)],
-        'estimator__n_estimators': [i for i in range(50,301,50)],
+        'estimator__n_estimators': [i for i in range(50,251,50)],
     },
 ]
 

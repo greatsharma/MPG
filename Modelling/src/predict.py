@@ -31,7 +31,7 @@ for fold in range(global_var.NUM_FOLDS):
     if type(df_) != pd.DataFrame:
         df_ = pd.DataFrame(df_)
 
-    MODEL_NAME = f"{MODEL}_{PIPE}_cv{fold+1}_.pkl"
+    MODEL_NAME = f"{MODEL}_{PIPE}_cv{fold+1}_.pkl" #use best model for this
     estimator = joblib.load(MODEL_PATH + MODEL_NAME)
     
     ypreds = estimator.predict(df_.values)

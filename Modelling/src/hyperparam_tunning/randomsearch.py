@@ -31,32 +31,32 @@ param_dist = [
     },
     {
         'estimator': [ensemble.RandomForestRegressor(random_state=global_var.SEED, n_jobs=-1)],
-        'estimator__n_estimators': [i for i in range(50,201,50)],
-        'estimator__max_depth': range(4, 9),
-        'estimator__min_samples_split': [i for i in range(8, 17, 2)],
-        'estimator__max_leaf_nodes':[i for i in range(8,15,2)],
+        'estimator__n_estimators': [i for i in range(50,351,50)],
+        'estimator__max_depth': range(4, 11),
+        'estimator__min_samples_split': [i for i in range(6, 27, 2)],
+        'estimator__max_leaf_nodes':[i for i in range(6,21,2)],
     },
     {
         'estimator': [ensemble.ExtraTreesRegressor(random_state=global_var.SEED, n_jobs=-1)],
-        'estimator__n_estimators': [i for i in range(50,201,50)],
-        'estimator__max_depth': range(4, 9),
-        'estimator__min_samples_split': [i for i in range(8, 17, 2)],
-        'estimator__max_leaf_nodes':[i for i in range(8,15,2)],
+        'estimator__n_estimators': [i for i in range(50,351,50)],
+        'estimator__max_depth': range(4, 11),
+        'estimator__min_samples_split': [i for i in range(6, 27, 2)],
+        'estimator__max_leaf_nodes':[i for i in range(6,21,2)],
     },
     {
         'estimator': [ensemble.GradientBoostingRegressor(random_state=global_var.SEED)],
-        'estimator__n_estimators': [i for i in range(50,201,50)],
-        'estimator__max_depth': range(4, 9),
-        'estimator__min_samples_split': [i for i in range(8, 17, 2)],
-        'estimator__max_leaf_nodes':[i for i in range(8,15,2)],
+        'estimator__n_estimators': [i for i in range(50,351,50)],
+        'estimator__max_depth': range(4, 11),
+        'estimator__min_samples_split': [i for i in range(6, 27, 2)],
+        'estimator__max_leaf_nodes':[i for i in range(6,21,2)],
     },
     {
         'estimator': [ensemble.AdaBoostRegressor(random_state=global_var.SEED)],
-        'estimator__n_estimators': [i for i in range(50,301,50)],
+        'estimator__n_estimators': [i for i in range(50,351,50)],
     },
 ]
 
-randomcv = model_selection.RandomizedSearchCV(estimator=est, param_distributions=param_dist, n_iter=300, cv=5,
+randomcv = model_selection.RandomizedSearchCV(estimator=est, param_distributions=param_dist, n_iter=1200, cv=5,
                                              refit=True, verbose=VERBOSE, n_jobs=-1, scoring='r2',
                                              random_state=global_var.SEED)
 
