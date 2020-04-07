@@ -17,10 +17,8 @@ GENS = os.environ.get('GENS')
 POP_SIZE = os.environ.get('POP_SIZE')
 MAX_TIME = os.environ.get('MAX_TIME')
 CHECKPOINT_PATH = os.environ.get('CHECKPOINT_PATH')
+PERIODIC_CHECKPT = os.environ.get('PERIODIC_CHECKPT')
 PIPE = os.environ.get('PIPE')
-
-if not MAX_TIME is None:
-    MAX_TIME = int(MAX_TIME)
 
 df = pd.read_csv(INPUT_PATH + 'train.csv')
 ytrain = df.target
@@ -35,9 +33,17 @@ if not PIPE is None:
 
 del df
 
+if not MAX_TIME is None:
+    MAX_TIME = int(MAX_TIME)
+
+if PERIODIC_CHECKPT == "true":
+    periodic_checkpoint_folder = CHECKPOINT_PATH
+else:
+    periodic_checkpoint_folder = None
+
 tpot = TPOTRegressor(generations=int(GENS), population_size=int(GENS), max_time_mins=MAX_TIME, cv=5,
                     scoring='r2', random_state=global_var.SEED, verbosity=3, n_jobs=-1, 
-                    periodic_checkpoint_folder=CHECKPOINT_PATH,)
+                    periodic_checkpoint_folder=periodic_checkpoint_folder,)
 
 sys.stdout = open(LOGS_PATH, "a")
 

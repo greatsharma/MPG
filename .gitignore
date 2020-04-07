@@ -142,14 +142,3 @@ logs/
 meta/
 models/
 notebooks/
-tmp/
-out/
-
-# data files
-*.csv
-*.h5
-*.pkl
-*.pth
-
-# shell scripts
-*.sh
