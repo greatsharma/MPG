@@ -1,8 +1,8 @@
 Run shell Command `sh train.sh` to begin training. You can add more pipelines and more estimators as you wish.<br><br>
 Run shell Command `sh clear.sh` to clear all generated files from training. This is for a fresh start.<br><br>
-Run shell Command `pred_type=custom/topt bash predict.sh` to predict for new data (test data) using either custom pipelines and estimators or best pipeline found by TPOT. This should be used at the end only when training is finished and you get your best pipeline and model.<br>
+Run shell Command `pred_type=custom/topt bash predict.sh` to predict for new data (test data) using either custom pipelines and estimators or best pipeline found by TPOT. This should be used at the end only when training is finished and you get your best pipeline and model.<br><br>
 Run shell Command `bash hyperparam.sh grid/random` for hyper-parameter tunning using either
-grid search or random search.<br>
+grid search or random search.<br><br>
 Run shell Command `strategy=tpot bash automl.sh` to run TPOT. You can provide many other CL arguments as needed, but all are not compulsory there are defaults for them. For further you can visit `automl.sh`. There is a lot scope for changes in automl.<br>
 
 You can change these script according to you as well.<br>
