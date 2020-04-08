@@ -56,7 +56,6 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -135,10 +134,10 @@ docs/
 .DS_Store
 
 # input data and models
-Analysis/
-img/
-input/
-logs/
-meta/
-models/
-notebooks/
+# Analysis/
+# img/
+# input/
+# logs/
+# meta/
+# models/
+# notebooks/

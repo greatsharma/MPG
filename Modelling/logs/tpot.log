@@ -1,0 +1,1193 @@
+
+
+[2020-04-06/21:00:47]	TPOT Begins
+
+Generations=25	Population_Size=25	Max_Time=None	PIPE=pipe5
+
+30 operators have been imported by TPOT.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 1 - Current Pareto front scores:
+-1	0.8482417300457783	AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100)
+-2	0.8647716662806462	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Generation 2 - Current Pareto front scores:
+-1	0.8622508776205697	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8660981607496581	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_2_idx_0_2020.04.06_21-01-29.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_2_idx_1_2020.04.06_21-01-29.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 3 - Current Pareto front scores:
+-1	0.862531583273265	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8660981607496581	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=1 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 4 - Current Pareto front scores:
+-1	0.862531583273265	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8660981607496581	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_4_idx_0_2020.04.06_21-02-08.py
+Periodic pipeline was not saved, probably saved before...
+Generation 5 - Current Pareto front scores:
+-1	0.862531583273265	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8668396795223732	ExtraTreesRegressor(ElasticNetCV(input_matrix, ElasticNetCV__l1_ratio=0.1, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Generation 6 - Current Pareto front scores:
+-1	0.8627059097625622	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=4, ExtraTreesRegressor__n_estimators=100)
+-2	0.8668396795223732	ExtraTreesRegressor(ElasticNetCV(input_matrix, ElasticNetCV__l1_ratio=0.1, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8669562649111897	ExtraTreesRegressor(AdaBoostRegressor(RidgeCV(SelectPercentile(input_matrix, SelectPercentile__percentile=91)), AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_6_idx_0_2020.04.06_21-02-44.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_6_idx_1_2020.04.06_21-02-44.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_6_idx_2_2020.04.06_21-02-44.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 7 - Current Pareto front scores:
+-1	0.863510615234192	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7500000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.868947014067827	ExtraTreesRegressor(ElasticNetCV(input_matrix, ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 cosine was provided as affinity. Ward can only work with euclidean distances..
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 8 - Current Pareto front scores:
+-1	0.8645446146099192	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8698920126749602	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_8_idx_0_2020.04.06_21-03-22.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_8_idx_1_2020.04.06_21-03-22.py
+Generation 9 - Current Pareto front scores:
+-1	0.8649646573901675	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8698920126749602	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8704075374385978	ExtraTreesRegressor(MinMaxScaler(ElasticNetCV(SelectFwe(input_matrix, SelectFwe__alpha=0.045), ElasticNetCV__l1_ratio=0.1, ElasticNetCV__tol=1e-05)), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 10 - Current Pareto front scores:
+-1	0.8649646573901675	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8698920126749602	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8704075374385978	ExtraTreesRegressor(MinMaxScaler(ElasticNetCV(SelectFwe(input_matrix, SelectFwe__alpha=0.045), ElasticNetCV__l1_ratio=0.1, ElasticNetCV__tol=1e-05)), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_10_idx_0_2020.04.06_21-04-07.py
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_10_idx_2_2020.04.06_21-04-07.py
+Generation 11 - Current Pareto front scores:
+-1	0.8649646573901675	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8698920126749602	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8704075374385978	ExtraTreesRegressor(MinMaxScaler(ElasticNetCV(SelectFwe(input_matrix, SelectFwe__alpha=0.045), ElasticNetCV__l1_ratio=0.1, ElasticNetCV__tol=1e-05)), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 61.
+Generation 12 - Current Pareto front scores:
+-1	0.8649646573901675	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8698920126749602	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.8727889138702072	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_12_idx_2_2020.04.06_21-04-56.py
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 13 - Current Pareto front scores:
+-1	0.8649646573901675	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8698920126749602	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.8727889138702072	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Generation 14 - Current Pareto front scores:
+-1	0.8649646573901675	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8698920126749602	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.8727889138702072	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8792794587624367	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_14_idx_3_2020.04.06_21-05-39.py
+Generation 15 - Current Pareto front scores:
+-1	0.8654942909176697	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8698920126749602	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.8727889138702072	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8792794587624367	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Automatic alpha grid generation is not supported for l1_ratio=0. Please supply a grid by providing your estimator with the appropriate `alphas=` argument..
+Generation 16 - Current Pareto front scores:
+-1	0.8654942909176697	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8698920126749602	ExtraTreesRegressor(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.8727889138702072	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8797384544202866	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_16_idx_0_2020.04.06_21-06-47.py
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_16_idx_3_2020.04.06_21-06-47.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 17 - Current Pareto front scores:
+-1	0.8654942909176697	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8717188654220033	ExtraTreesRegressor(RidgeCV(input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.8727889138702072	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8797384544202866	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 18 - Current Pareto front scores:
+-1	0.8657787763665936	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8717188654220033	ExtraTreesRegressor(RidgeCV(input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.8727889138702072	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8797384544202866	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_18_idx_0_2020.04.06_21-07-34.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_18_idx_1_2020.04.06_21-07-34.py
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Automatic alpha grid generation is not supported for l1_ratio=0. Please supply a grid by providing your estimator with the appropriate `alphas=` argument..
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Generation 19 - Current Pareto front scores:
+-1	0.8669452481230968	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8717188654220033	ExtraTreesRegressor(RidgeCV(input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.873955025802816	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8797384544202866	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-5	0.8820662452293142	ExtraTreesRegressor(ElasticNetCV(LassoLarsCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_19_idx_0_2020.04.06_21-08-09.py
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_19_idx_2_2020.04.06_21-08-09.py
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_19_idx_4_2020.04.06_21-08-09.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Generation 20 - Current Pareto front scores:
+-1	0.8674391459452252	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8717188654220033	ExtraTreesRegressor(RidgeCV(input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.873955025802816	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8797384544202866	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-5	0.8820662452293142	ExtraTreesRegressor(ElasticNetCV(LassoLarsCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_20_idx_0_2020.04.06_21-10-09.py
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 21 - Current Pareto front scores:
+-1	0.8674391459452252	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8717188654220033	ExtraTreesRegressor(RidgeCV(input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.873955025802816	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8818805926742082	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-5	0.8820662452293142	ExtraTreesRegressor(ElasticNetCV(LassoLarsCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 22 - Current Pareto front scores:
+-1	0.8674391459452252	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8717188654220033	ExtraTreesRegressor(RidgeCV(input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.873955025802816	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8818805926742082	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-5	0.8824152338624456	ExtraTreesRegressor(LinearSVR(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), LinearSVR__C=25.0, LinearSVR__dual=False, LinearSVR__epsilon=0.001, LinearSVR__loss=squared_epsilon_insensitive, LinearSVR__tol=0.01), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_22_idx_3_2020.04.06_21-11-43.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_22_idx_4_2020.04.06_21-11-43.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 23 - Current Pareto front scores:
+-1	0.8674391459452252	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8717188654220033	ExtraTreesRegressor(RidgeCV(input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.873955025802816	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-4	0.8818805926742082	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-5	0.8824152338624456	ExtraTreesRegressor(LinearSVR(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), LinearSVR__C=25.0, LinearSVR__dual=False, LinearSVR__epsilon=0.001, LinearSVR__loss=squared_epsilon_insensitive, LinearSVR__tol=0.01), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Generation 24 - Current Pareto front scores:
+-1	0.8674391459452252	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8717374575092096	ExtraTreesRegressor(CombineDFs(ElasticNetCV(input_matrix, ElasticNetCV__l1_ratio=0.15000000000000002, ElasticNetCV__tol=0.0001), input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.875735269426346	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=3, ExtraTreesRegressor__n_estimators=100)
+-4	0.8818805926742082	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-5	0.8865545975336128	ExtraTreesRegressor(ElasticNetCV(LassoLarsCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Generation 25 - Current Pareto front scores:
+-1	0.8674391459452252	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.55, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-2	0.8717374575092096	ExtraTreesRegressor(CombineDFs(ElasticNetCV(input_matrix, ElasticNetCV__l1_ratio=0.15000000000000002, ElasticNetCV__tol=0.0001), input_matrix), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-3	0.875735269426346	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=3, ExtraTreesRegressor__n_estimators=100)
+-4	0.8818805926742082	ExtraTreesRegressor(ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=0.001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+-5	0.8865545975336128	ExtraTreesRegressor(ElasticNetCV(LassoLarsCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.045), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False), ElasticNetCV__l1_ratio=0.65, ElasticNetCV__tol=1e-05), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.9000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=6, ExtraTreesRegressor__n_estimators=100)
+
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_25_idx_1_2020.04.06_21-13-15.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_25_idx_2_2020.04.06_21-13-15.py
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_210045/pipeline_gen_25_idx_4_2020.04.06_21-13-15.py
+Pipeline(memory=None,
+         steps=[('selectfwe',
+                 SelectFwe(alpha=0.045,
+                           score_func=<function f_regression at 0x7f7de2d94f70>)),
+                ('polynomialfeatures',
+                 PolynomialFeatures(degree=2, include_bias=False,
+                                    interaction_only=False, order='C')),
+                ('stackingestimator-1',
+                 StackingEstimator(estimator=LassoLarsCV(copy_X=True, cv=None,
+                                                         eps=2.220446049250313e-16,
+                                                         fit_intercept=True,
+                                                         max...
+                 ExtraTreesRegressor(bootstrap=True, ccp_alpha=0.0,
+                                     criterion='mse', max_depth=None,
+                                     max_features=0.9000000000000001,
+                                     max_leaf_nodes=None, max_samples=None,
+                                     min_impurity_decrease=0.0,
+                                     min_impurity_split=None,
+                                     min_samples_leaf=1, min_samples_split=6,
+                                     min_weight_fraction_leaf=0.0,
+                                     n_estimators=100, n_jobs=None,
+                                     oob_score=False, random_state=42,
+                                     verbose=0, warm_start=False))],
+         verbose=False)
+
+[2020-04-06/21:13:20]	TPOT Finished
+
+
+
+[2020-04-06/21:29:40]	TPOT Begins
+
+Generations=25	Population_Size=25	Max_Time=None	PIPE=None
+
+30 operators have been imported by TPOT.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 1 - Current Pareto front scores:
+-1	0.8602653493008384	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=1 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 2 - Current Pareto front scores:
+-1	0.8602653493008384	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 3 - Current Pareto front scores:
+-1	0.8602653493008384	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_212939/pipeline_gen_3_idx_0_2020.04.06_21-30-23.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 l1 was provided as affinity. Ward can only work with euclidean distances..
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 4 - Current Pareto front scores:
+-1	0.8602653493008384	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+
+Generation 5 - Current Pareto front scores:
+-1	0.8602653493008384	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+
+Generation 6 - Current Pareto front scores:
+-1	0.8602653493008384	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+
+Periodic pipeline was not saved, probably saved before...
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 73.
+Generation 7 - Current Pareto front scores:
+-1	0.8602653493008384	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+-2	0.8643556818415892	XGBRegressor(LassoLarsCV(CombineDFs(input_matrix, input_matrix), LassoLarsCV__normalize=False), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected cylinders, origin, weight, displacement, horsepower, model_year, acceleration, car_company in input data
+training data did not have the following fields: f0, f2, f5, f3, f7, f1, f4, f6.
+Generation 8 - Current Pareto front scores:
+-1	0.8607255719139779	XGBRegressor(CombineDFs(input_matrix, input_matrix), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=4, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+-2	0.8643556818415892	XGBRegressor(LassoLarsCV(CombineDFs(input_matrix, input_matrix), LassoLarsCV__normalize=False), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected cylinders, origin, weight, displacement, horsepower, model_year, acceleration, car_company in input data
+training data did not have the following fields: f0, f2, f5, f3, f7, f1, f4, f6.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 9 - Current Pareto front scores:
+-1	0.8608213749669119	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+-2	0.8643556818415892	XGBRegressor(LassoLarsCV(CombineDFs(input_matrix, input_matrix), LassoLarsCV__normalize=False), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+-3	0.8648593434659693	XGBRegressor(LinearSVR(VarianceThreshold(input_matrix, VarianceThreshold__threshold=0.1), LinearSVR__C=15.0, LinearSVR__dual=True, LinearSVR__epsilon=0.1, LinearSVR__loss=squared_epsilon_insensitive, LinearSVR__tol=0.001), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 10 - Current Pareto front scores:
+-1	0.8608213749669119	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+-2	0.8643757989308553	XGBRegressor(LassoLarsCV(CombineDFs(input_matrix, input_matrix), LassoLarsCV__normalize=False), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=4, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+-3	0.865442069921493	XGBRegressor(SelectPercentile(SelectFwe(input_matrix, SelectFwe__alpha=0.031), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_212939/pipeline_gen_10_idx_0_2020.04.06_21-31-35.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_212939/pipeline_gen_10_idx_1_2020.04.06_21-31-35.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_212939/pipeline_gen_10_idx_2_2020.04.06_21-31-35.py
+_pre_test decorator: _random_mutation_operator: num_test=0 manhattan was provided as affinity. Ward can only work with euclidean distances..
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 11 - Current Pareto front scores:
+-1	0.862825358375224	XGBRegressor(CombineDFs(input_matrix, input_matrix), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=4, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+-2	0.869494307623324	XGBRegressor(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.0, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.9000000000000001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 manhattan was provided as affinity. Ward can only work with euclidean distances..
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 12 - Current Pareto front scores:
+-1	0.863686624684922	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=4, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+-2	0.869494307623324	XGBRegressor(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.0, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.9000000000000001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Generation 13 - Current Pareto front scores:
+-1	0.8689692172944479	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.9000000000000001)
+-2	0.869494307623324	XGBRegressor(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.0, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.9000000000000001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected cylinders, origin, weight, displacement, horsepower, model_year, acceleration, car_company in input data
+training data did not have the following fields: f0, f2, f5, f3, f7, f1, f4, f6.
+Generation 14 - Current Pareto front scores:
+-1	0.8689692172944479	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.9000000000000001)
+-2	0.869494307623324	XGBRegressor(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.0, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.9000000000000001)
+-3	0.8709161198466491	XGBRegressor(SelectPercentile(MaxAbsScaler(input_matrix), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.4)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 [21:31:57] /workspace/src/learner.cc:946: Check failed: mparam_.num_feature != 0 (0 vs. 0) : 0 feature is supplied.  Are you using raw Booster interface?
+Stack trace:
+  [bt] (0) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/site-packages/xgboost/./lib/libxgboost.so(dmlc::LogMessageFatal::~LogMessageFatal()+0x54) [0x7effd605e614]
+  [bt] (1) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/site-packages/xgboost/./lib/libxgboost.so(xgboost::LearnerImpl::ConfigureNumFeatures()+0x600) [0x7effd6142ff0]
+  [bt] (2) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/site-packages/xgboost/./lib/libxgboost.so(xgboost::LearnerImpl::Configure()+0x385) [0x7effd614fb75]
+  [bt] (3) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/site-packages/xgboost/./lib/libxgboost.so(xgboost::LearnerImpl::UpdateOneIter(int, xgboost::DMatrix*)+0x6d) [0x7effd614a69d]
+  [bt] (4) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/site-packages/xgboost/./lib/libxgboost.so(XGBoosterUpdateOneIter+0x29) [0x7effd604d639]
+  [bt] (5) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/lib-dynload/../../libffi.so.6(ffi_call_unix64+0x4c) [0x7f000557aec0]
+  [bt] (6) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/lib-dynload/../../libffi.so.6(ffi_call+0x22d) [0x7f000557a87d]
+  [bt] (7) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so(_ctypes_callproc+0x2c0) [0x7f0005790920]
+  [bt] (8) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so(+0x13355) [0x7f0005791355]
+
+.
+_pre_test decorator: _random_mutation_operator: num_test=0 [21:31:57] /workspace/src/learner.cc:946: Check failed: mparam_.num_feature != 0 (0 vs. 0) : 0 feature is supplied.  Are you using raw Booster interface?
+Stack trace:
+  [bt] (0) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/site-packages/xgboost/./lib/libxgboost.so(dmlc::LogMessageFatal::~LogMessageFatal()+0x54) [0x7effd605e614]
+  [bt] (1) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/site-packages/xgboost/./lib/libxgboost.so(xgboost::LearnerImpl::ConfigureNumFeatures()+0x600) [0x7effd6142ff0]
+  [bt] (2) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/site-packages/xgboost/./lib/libxgboost.so(xgboost::LearnerImpl::Configure()+0x385) [0x7effd614fb75]
+  [bt] (3) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/site-packages/xgboost/./lib/libxgboost.so(xgboost::LearnerImpl::UpdateOneIter(int, xgboost::DMatrix*)+0x6d) [0x7effd614a69d]
+  [bt] (4) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/site-packages/xgboost/./lib/libxgboost.so(XGBoosterUpdateOneIter+0x29) [0x7effd604d639]
+  [bt] (5) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/lib-dynload/../../libffi.so.6(ffi_call_unix64+0x4c) [0x7f000557aec0]
+  [bt] (6) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/lib-dynload/../../libffi.so.6(ffi_call+0x22d) [0x7f000557a87d]
+  [bt] (7) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so(_ctypes_callproc+0x2c0) [0x7f0005790920]
+  [bt] (8) /home/winter_soilder/anaconda3/envs/mpg/lib/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so(+0x13355) [0x7f0005791355]
+
+.
+_pre_test decorator: _random_mutation_operator: num_test=1 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 57.
+Generation 15 - Current Pareto front scores:
+-1	0.8689692172944479	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.9000000000000001)
+-2	0.8710279297168192	XGBRegressor(CombineDFs(input_matrix, LinearSVR(input_matrix, LinearSVR__C=0.1, LinearSVR__dual=True, LinearSVR__epsilon=0.0001, LinearSVR__loss=squared_epsilon_insensitive, LinearSVR__tol=1e-05)), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=3, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.6000000000000001)
+-3	0.8725754524325751	XGBRegressor(SelectPercentile(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.75, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+
+Generation 16 - Current Pareto front scores:
+-1	0.8689692172944479	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.9000000000000001)
+-2	0.8711589840278728	XGBRegressor(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=1.0, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.0, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-3	0.8725754524325751	XGBRegressor(SelectPercentile(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.75, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_212939/pipeline_gen_16_idx_0_2020.04.06_21-32-08.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_212939/pipeline_gen_16_idx_1_2020.04.06_21-32-08.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_212939/pipeline_gen_16_idx_2_2020.04.06_21-32-08.py
+Generation 17 - Current Pareto front scores:
+-1	0.8692427107018725	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-2	0.8711589840278728	XGBRegressor(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=1.0, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.0, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-3	0.8725754524325751	XGBRegressor(SelectPercentile(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.75, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected cylinders, origin, weight, displacement, horsepower, model_year, acceleration, car_company in input data
+training data did not have the following fields: f0, f2, f5, f3, f7, f1, f4, f6.
+Generation 18 - Current Pareto front scores:
+-1	0.8692427107018725	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-2	0.8712720804792781	XGBRegressor(KNeighborsRegressor(input_matrix, KNeighborsRegressor__n_neighbors=25, KNeighborsRegressor__p=2, KNeighborsRegressor__weights=uniform), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-3	0.8725754524325751	XGBRegressor(SelectPercentile(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.75, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+
+Generation 19 - Current Pareto front scores:
+-1	0.8692427107018725	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-2	0.8712720804792781	XGBRegressor(KNeighborsRegressor(input_matrix, KNeighborsRegressor__n_neighbors=25, KNeighborsRegressor__p=2, KNeighborsRegressor__weights=uniform), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-3	0.8725754524325751	XGBRegressor(SelectPercentile(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.75, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+
+Generation 20 - Current Pareto front scores:
+-1	0.8692427107018725	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-2	0.8712720804792781	XGBRegressor(KNeighborsRegressor(input_matrix, KNeighborsRegressor__n_neighbors=25, KNeighborsRegressor__p=2, KNeighborsRegressor__weights=uniform), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-3	0.8725754524325751	XGBRegressor(SelectPercentile(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.75, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 l2 was provided as affinity. Ward can only work with euclidean distances..
+Generation 21 - Current Pareto front scores:
+-1	0.8692427107018725	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-2	0.8717157399978557	XGBRegressor(LinearSVR(input_matrix, LinearSVR__C=0.1, LinearSVR__dual=True, LinearSVR__epsilon=0.0001, LinearSVR__loss=squared_epsilon_insensitive, LinearSVR__tol=1e-05), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=4, XGBRegressor__min_child_weight=17, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.6000000000000001)
+-3	0.8725754524325751	XGBRegressor(SelectPercentile(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.75, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+
+Generation 22 - Current Pareto front scores:
+-1	0.8692427107018725	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-2	0.8717157399978557	XGBRegressor(LinearSVR(input_matrix, LinearSVR__C=0.1, LinearSVR__dual=True, LinearSVR__epsilon=0.0001, LinearSVR__loss=squared_epsilon_insensitive, LinearSVR__tol=1e-05), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=4, XGBRegressor__min_child_weight=17, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.6000000000000001)
+-3	0.8725754524325751	XGBRegressor(SelectPercentile(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.75, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 manhattan was provided as affinity. Ward can only work with euclidean distances..
+Generation 23 - Current Pareto front scores:
+-1	0.8692427107018725	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-2	0.8717157399978557	XGBRegressor(LinearSVR(input_matrix, LinearSVR__C=0.1, LinearSVR__dual=True, LinearSVR__epsilon=0.0001, LinearSVR__loss=squared_epsilon_insensitive, LinearSVR__tol=1e-05), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=4, XGBRegressor__min_child_weight=17, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.6000000000000001)
+-3	0.8725754524325751	XGBRegressor(SelectPercentile(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.75, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+-5	0.8778972764720866	XGBRegressor(CombineDFs(SelectFwe(FeatureAgglomeration(input_matrix, FeatureAgglomeration__affinity=euclidean, FeatureAgglomeration__linkage=average), SelectFwe__alpha=0.045), MinMaxScaler(LinearSVR(input_matrix, LinearSVR__C=0.1, LinearSVR__dual=True, LinearSVR__epsilon=0.0001, LinearSVR__loss=squared_epsilon_insensitive, LinearSVR__tol=1e-05))), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=3, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.6000000000000001)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_212939/pipeline_gen_23_idx_0_2020.04.06_21-32-43.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_212939/pipeline_gen_23_idx_1_2020.04.06_21-32-43.py
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_212939/pipeline_gen_23_idx_3_2020.04.06_21-32-43.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Generation 24 - Current Pareto front scores:
+-1	0.8692427107018725	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-2	0.8717157399978557	XGBRegressor(LinearSVR(input_matrix, LinearSVR__C=0.1, LinearSVR__dual=True, LinearSVR__epsilon=0.0001, LinearSVR__loss=squared_epsilon_insensitive, LinearSVR__tol=1e-05), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=4, XGBRegressor__min_child_weight=17, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.6000000000000001)
+-3	0.8725754524325751	XGBRegressor(SelectPercentile(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.75, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+-5	0.8778972764720866	XGBRegressor(CombineDFs(SelectFwe(FeatureAgglomeration(input_matrix, FeatureAgglomeration__affinity=euclidean, FeatureAgglomeration__linkage=average), SelectFwe__alpha=0.045), MinMaxScaler(LinearSVR(input_matrix, LinearSVR__C=0.1, LinearSVR__dual=True, LinearSVR__epsilon=0.0001, LinearSVR__loss=squared_epsilon_insensitive, LinearSVR__tol=1e-05))), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=3, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.6000000000000001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected cylinders, origin, weight, displacement, horsepower, model_year, acceleration, car_company in input data
+training data did not have the following fields: f0, f2, f5, f3, f7, f1, f4, f6.
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected cylinders, origin, weight, displacement, horsepower, model_year, acceleration, car_company in input data
+training data did not have the following fields: f0, f2, f5, f3, f7, f1, f4, f6.
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected cylinders, origin, weight, displacement, horsepower, model_year, acceleration, car_company in input data
+training data did not have the following fields: f0, f2, f5, f3, f7, f1, f4, f6.
+Generation 25 - Current Pareto front scores:
+-1	0.8692427107018725	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=2, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=1.0)
+-2	0.8717157399978557	XGBRegressor(LinearSVR(input_matrix, LinearSVR__C=0.1, LinearSVR__dual=True, LinearSVR__epsilon=0.0001, LinearSVR__loss=squared_epsilon_insensitive, LinearSVR__tol=1e-05), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=4, XGBRegressor__min_child_weight=17, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.6000000000000001)
+-3	0.8725754524325751	XGBRegressor(SelectPercentile(SGDRegressor(input_matrix, SGDRegressor__alpha=0.0, SGDRegressor__eta0=0.01, SGDRegressor__fit_intercept=True, SGDRegressor__l1_ratio=0.75, SGDRegressor__learning_rate=constant, SGDRegressor__loss=squared_loss, SGDRegressor__penalty=elasticnet, SGDRegressor__power_t=50.0), SelectPercentile__percentile=97), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=5, XGBRegressor__min_child_weight=2, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.2)
+-4	0.8778972764720866	XGBRegressor(CombineDFs(FeatureAgglomeration(input_matrix, FeatureAgglomeration__affinity=euclidean, FeatureAgglomeration__linkage=average), MinMaxScaler(LinearSVR(input_matrix, LinearSVR__C=0.1, LinearSVR__dual=True, LinearSVR__epsilon=0.0001, LinearSVR__loss=squared_epsilon_insensitive, LinearSVR__tol=1e-05))), XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=3, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.6000000000000001)
+
+Pipeline(memory=None,
+         steps=[('featureunion',
+                 FeatureUnion(n_jobs=None,
+                              transformer_list=[('featureagglomeration',
+                                                 FeatureAgglomeration(affinity='euclidean',
+                                                                      compute_full_tree='auto',
+                                                                      connectivity=None,
+                                                                      distance_threshold=None,
+                                                                      linkage='average',
+                                                                      memory=None,
+                                                                      n_clusters=2,
+                                                                      pooling_func=<function mean at 0x7efffb60d310>)),
+                                                ('pipeline',
+                                                 Pipeline(memory=None,
+                                                          steps=[(...
+                              interaction_constraints=None, learning_rate=0.1,
+                              max_delta_step=0, max_depth=3,
+                              min_child_weight=15, missing=nan,
+                              monotone_constraints=None, n_estimators=100,
+                              n_jobs=1, nthread=1, num_parallel_tree=1,
+                              objective='reg:squarederror', random_state=42,
+                              reg_alpha=0, reg_lambda=1, scale_pos_weight=1,
+                              subsample=0.6000000000000001, tree_method=None,
+                              validate_parameters=False, verbosity=None))],
+         verbose=False)
+
+[2020-04-06/21:32:51]	TPOT Finished
+
+
+
+[2020-04-06/21:38:51]	TPOT Begins
+
+Generations=40	Population_Size=40	Max_Time=None	PIPE=None
+
+30 operators have been imported by TPOT.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 88.
+Generation 1 - Current Pareto front scores:
+-1	0.8563005626752693	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+-3	0.8575989530024779	LassoLarsCV(PCA(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=0.5, AdaBoostRegressor__loss=linear, AdaBoostRegressor__n_estimators=100), PCA__iterated_power=7, PCA__svd_solver=randomized), LassoLarsCV__normalize=False)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_1_idx_0_2020.04.06_21-39-21.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_1_idx_1_2020.04.06_21-39-21.py
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+_pre_test decorator: _random_mutation_operator: num_test=0 l2 was provided as affinity. Ward can only work with euclidean distances..
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+Generation 2 - Current Pareto front scores:
+-1	0.8563005626752693	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+-2	0.8600909180551988	RidgeCV(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=0.5, AdaBoostRegressor__loss=square, AdaBoostRegressor__n_estimators=100))
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=1 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Generation 3 - Current Pareto front scores:
+-1	0.8563005626752693	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+-2	0.8600909180551988	RidgeCV(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=0.5, AdaBoostRegressor__loss=square, AdaBoostRegressor__n_estimators=100))
+-3	0.8606955126743617	RandomForestRegressor(LassoLarsCV(ZeroCount(input_matrix), LassoLarsCV__normalize=False), RandomForestRegressor__bootstrap=True, RandomForestRegressor__max_features=0.35000000000000003, RandomForestRegressor__min_samples_leaf=7, RandomForestRegressor__min_samples_split=13, RandomForestRegressor__n_estimators=100)
+
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_3_idx_1_2020.04.06_21-40-04.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_3_idx_2_2020.04.06_21-40-04.py
+_pre_test decorator: _random_mutation_operator: num_test=0 No feature in X meets the variance threshold 0.20000.
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+_pre_test decorator: _random_mutation_operator: num_test=1 '(slice(None, None, None), 0)' is an invalid key.
+Generation 4 - Current Pareto front scores:
+-1	0.8563005626752693	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+-2	0.8600909180551988	RidgeCV(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=0.5, AdaBoostRegressor__loss=square, AdaBoostRegressor__n_estimators=100))
+-3	0.8606955126743617	RandomForestRegressor(LassoLarsCV(ZeroCount(input_matrix), LassoLarsCV__normalize=False), RandomForestRegressor__bootstrap=True, RandomForestRegressor__max_features=0.35000000000000003, RandomForestRegressor__min_samples_leaf=7, RandomForestRegressor__min_samples_split=13, RandomForestRegressor__n_estimators=100)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=1 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+_pre_test decorator: _random_mutation_operator: num_test=0 l2 was provided as affinity. Ward can only work with euclidean distances..
+Generation 5 - Current Pareto front scores:
+-1	0.8563005626752693	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.35000000000000003)
+-2	0.8600909180551988	RidgeCV(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=0.5, AdaBoostRegressor__loss=square, AdaBoostRegressor__n_estimators=100))
+-3	0.8622203960331498	RandomForestRegressor(LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False), RandomForestRegressor__bootstrap=True, RandomForestRegressor__max_features=0.35000000000000003, RandomForestRegressor__min_samples_leaf=11, RandomForestRegressor__min_samples_split=13, RandomForestRegressor__n_estimators=100)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_5_idx_2_2020.04.06_21-40-58.py
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+_pre_test decorator: _random_mutation_operator: num_test=0 cosine was provided as affinity. Ward can only work with euclidean distances..
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 6 - Current Pareto front scores:
+-1	0.8577433316922523	XGBRegressor(input_matrix, XGBRegressor__learning_rate=0.1, XGBRegressor__max_depth=6, XGBRegressor__min_child_weight=15, XGBRegressor__n_estimators=100, XGBRegressor__nthread=1, XGBRegressor__objective=reg:squarederror, XGBRegressor__subsample=0.45)
+-2	0.8600909180551988	RidgeCV(AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=0.5, AdaBoostRegressor__loss=square, AdaBoostRegressor__n_estimators=100))
+-3	0.8645760671437559	RidgeCV(RobustScaler(ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=1.0, ExtraTreesRegressor__min_samples_leaf=10, ExtraTreesRegressor__min_samples_split=3, ExtraTreesRegressor__n_estimators=100)))
+
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+Generation 7 - Current Pareto front scores:
+-1	0.8577482315832705	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7500000000000001, ExtraTreesRegressor__min_samples_leaf=8, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8642653818426715	RandomForestRegressor(LassoLarsCV(input_matrix, LassoLarsCV__normalize=True), RandomForestRegressor__bootstrap=True, RandomForestRegressor__max_features=0.6000000000000001, RandomForestRegressor__min_samples_leaf=4, RandomForestRegressor__min_samples_split=11, RandomForestRegressor__n_estimators=100)
+-3	0.8674278941718537	LassoLarsCV(ExtraTreesRegressor(VarianceThreshold(input_matrix, VarianceThreshold__threshold=0.0001), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.4, ExtraTreesRegressor__min_samples_leaf=4, ExtraTreesRegressor__min_samples_split=4, ExtraTreesRegressor__n_estimators=100), LassoLarsCV__normalize=True)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_7_idx_0_2020.04.06_21-41-53.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_7_idx_1_2020.04.06_21-41-53.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_7_idx_2_2020.04.06_21-41-53.py
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+Generation 8 - Current Pareto front scores:
+-1	0.8651015211172328	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7500000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8674278941718537	LassoLarsCV(ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.4, ExtraTreesRegressor__min_samples_leaf=4, ExtraTreesRegressor__min_samples_split=4, ExtraTreesRegressor__n_estimators=100), LassoLarsCV__normalize=True)
+
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 9 - Current Pareto front scores:
+-1	0.8651015211172328	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7500000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8674278941718537	LassoLarsCV(ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.4, ExtraTreesRegressor__min_samples_leaf=4, ExtraTreesRegressor__min_samples_split=4, ExtraTreesRegressor__n_estimators=100), LassoLarsCV__normalize=True)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_9_idx_0_2020.04.06_21-42-45.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_9_idx_1_2020.04.06_21-42-45.py
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=1 Automatic alpha grid generation is not supported for l1_ratio=0. Please supply a grid by providing your estimator with the appropriate `alphas=` argument..
+Generation 10 - Current Pareto front scores:
+-1	0.8651015211172328	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7500000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8674278941718537	LassoLarsCV(ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.4, ExtraTreesRegressor__min_samples_leaf=4, ExtraTreesRegressor__min_samples_split=4, ExtraTreesRegressor__n_estimators=100), LassoLarsCV__normalize=True)
+-3	0.8685682747476593	LassoLarsCV(ExtraTreesRegressor(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.4, ExtraTreesRegressor__min_samples_leaf=4, ExtraTreesRegressor__min_samples_split=4, ExtraTreesRegressor__n_estimators=100), LassoLarsCV__normalize=True)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 cosine was provided as affinity. Ward can only work with euclidean distances..
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 11 - Current Pareto front scores:
+-1	0.8651015211172328	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7500000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_11_idx_1_2020.04.06_21-43-37.py
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+Generation 12 - Current Pareto front scores:
+-1	0.8651015211172328	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7500000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Generation 13 - Current Pareto front scores:
+-1	0.8651015211172328	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7500000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Generation 14 - Current Pareto front scores:
+-1	0.866979760487166	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.45, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 manhattan was provided as affinity. Ward can only work with euclidean distances..
+Generation 15 - Current Pareto front scores:
+-1	0.866979760487166	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.45, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8893632605171854	LassoLarsCV(PolynomialFeatures(MinMaxScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_15_idx_0_2020.04.06_21-45-26.py
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_15_idx_2_2020.04.06_21-45-26.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 16 - Current Pareto front scores:
+-1	0.866979760487166	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.45, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8893632605171854	LassoLarsCV(PolynomialFeatures(MinMaxScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 17 - Current Pareto front scores:
+-1	0.866979760487166	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.45, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8893632605171854	LassoLarsCV(PolynomialFeatures(MinMaxScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=1 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 93.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 18 - Current Pareto front scores:
+-1	0.866979760487166	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.45, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8893632605171854	LassoLarsCV(PolynomialFeatures(MinMaxScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 19 - Current Pareto front scores:
+-1	0.866979760487166	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.45, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8893632605171854	LassoLarsCV(PolynomialFeatures(MinMaxScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+_pre_test decorator: _random_mutation_operator: num_test=0 x and y arrays must have at least 2 entries.
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Generation 20 - Current Pareto front scores:
+-1	0.866979760487166	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.45, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8899093722504506	LassoLarsCV(PolynomialFeatures(RobustScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 79.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 21 - Current Pareto front scores:
+-1	0.866979760487166	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.45, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8899093722504506	LassoLarsCV(PolynomialFeatures(RobustScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_21_idx_2_2020.04.06_21-49-15.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 22 - Current Pareto front scores:
+-1	0.866979760487166	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.45, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8899093722504506	LassoLarsCV(PolynomialFeatures(RobustScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 l1 was provided as affinity. Ward can only work with euclidean distances..
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 23 - Current Pareto front scores:
+-1	0.866979760487166	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.45, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8899093722504506	LassoLarsCV(PolynomialFeatures(RobustScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 cosine was provided as affinity. Ward can only work with euclidean distances..
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 24 - Current Pareto front scores:
+-1	0.866979760487166	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.45, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8899093722504506	LassoLarsCV(PolynomialFeatures(RobustScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+-4	0.8907738909957569	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(input_matrix, GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=7, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.7500000000000001)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_24_idx_3_2020.04.06_21-50-53.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 93.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 25 - Current Pareto front scores:
+-1	0.8675215546382317	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=11, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8899093722504506	LassoLarsCV(PolynomialFeatures(RobustScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+-4	0.8907738909957569	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(input_matrix, GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=7, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.7500000000000001)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 97.
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 92.
+Generation 26 - Current Pareto front scores:
+-1	0.8682174418609641	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.5, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=12, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8899093722504506	LassoLarsCV(PolynomialFeatures(RobustScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+-4	0.8907738909957569	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(input_matrix, GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=7, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.7500000000000001)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_26_idx_0_2020.04.06_21-51-39.py
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=1 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 98.
+_pre_test decorator: _random_mutation_operator: num_test=0 array must not contain infs or NaNs.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 27 - Current Pareto front scores:
+-1	0.8682174418609641	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.5, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=12, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8910453712066746	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.55, ElasticNetCV__tol=0.001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 28 - Current Pareto front scores:
+-1	0.8682174418609641	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.5, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=12, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8910453712066746	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.55, ElasticNetCV__tol=0.001)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_28_idx_2_2020.04.06_21-53-27.py
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 100.
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 29 - Current Pareto front scores:
+-1	0.8682174418609641	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.5, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=12, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8910453712066746	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.55, ElasticNetCV__tol=0.001)
+-4	0.8919430677963763	LassoLarsCV(SelectFwe(PolynomialFeatures(LassoLarsCV(input_matrix, LassoLarsCV__normalize=True), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), SelectFwe__alpha=0.029), LassoLarsCV__normalize=True)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 30 - Current Pareto front scores:
+-1	0.8682174418609641	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.5, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=12, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8910453712066746	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.55, ElasticNetCV__tol=0.001)
+-4	0.8919430677963763	LassoLarsCV(SelectFwe(PolynomialFeatures(LassoLarsCV(input_matrix, LassoLarsCV__normalize=True), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), SelectFwe__alpha=0.029), LassoLarsCV__normalize=True)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_30_idx_3_2020.04.06_21-54-40.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 31 - Current Pareto front scores:
+-1	0.8682174418609641	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.5, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=12, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8910453712066746	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.55, ElasticNetCV__tol=0.001)
+-4	0.8919430677963763	LassoLarsCV(SelectFwe(PolynomialFeatures(LassoLarsCV(input_matrix, LassoLarsCV__normalize=True), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), SelectFwe__alpha=0.029), LassoLarsCV__normalize=True)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=1 '(slice(None, None, None), 0)' is an invalid key.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 32 - Current Pareto front scores:
+-1	0.8682174418609641	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.5, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=12, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8910453712066746	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.55, ElasticNetCV__tol=0.001)
+-4	0.8919430677963763	LassoLarsCV(SelectFwe(PolynomialFeatures(LassoLarsCV(input_matrix, LassoLarsCV__normalize=True), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), SelectFwe__alpha=0.029), LassoLarsCV__normalize=True)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=1 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 33 - Current Pareto front scores:
+-1	0.8682174418609641	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.5, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=12, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8910453712066746	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.55, ElasticNetCV__tol=0.001)
+-4	0.8919430677963763	LassoLarsCV(SelectFwe(PolynomialFeatures(LassoLarsCV(input_matrix, LassoLarsCV__normalize=True), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), SelectFwe__alpha=0.029), LassoLarsCV__normalize=True)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 Automatic alpha grid generation is not supported for l1_ratio=0. Please supply a grid by providing your estimator with the appropriate `alphas=` argument..
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 87.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 34 - Current Pareto front scores:
+-1	0.8682174418609641	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.5, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=12, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8910453712066746	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.55, ElasticNetCV__tol=0.001)
+-4	0.8919430677963763	LassoLarsCV(SelectFwe(PolynomialFeatures(LassoLarsCV(input_matrix, LassoLarsCV__normalize=True), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), SelectFwe__alpha=0.029), LassoLarsCV__normalize=True)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 67.
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 88.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 35 - Current Pareto front scores:
+-1	0.8682174418609641	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.5, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=12, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8911173839005786	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.6000000000000001, ElasticNetCV__tol=0.001)
+-4	0.8920909043707322	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(input_matrix, GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=11, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.45)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_35_idx_2_2020.04.06_21-57-48.py
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_35_idx_3_2020.04.06_21-57-48.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 52.
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 72.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 36 - Current Pareto front scores:
+-1	0.8682174418609641	ExtraTreesRegressor(CombineDFs(input_matrix, input_matrix), ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.5, ExtraTreesRegressor__min_samples_leaf=2, ExtraTreesRegressor__min_samples_split=12, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8911173839005786	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.6000000000000001, ElasticNetCV__tol=0.001)
+-4	0.8920909043707322	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(input_matrix, GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=11, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.45)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 l1 was provided as affinity. Ward can only work with euclidean distances..
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+Generation 37 - Current Pareto front scores:
+-1	0.8698901438193551	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7500000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=15, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8911173839005786	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.6000000000000001, ElasticNetCV__tol=0.001)
+-4	0.8920909043707322	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(input_matrix, GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=11, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.45)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+-5	0.8923723095707745	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(ElasticNetCV(input_matrix, ElasticNetCV__l1_ratio=0.5, ElasticNetCV__tol=0.0001), GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=11, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.45)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_37_idx_0_2020.04.06_21-58-34.py
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Saving periodic pipeline from pareto front to src/automl/tpot_checkpoints/20200406_213850/pipeline_gen_37_idx_4_2020.04.06_21-58-34.py
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 64.
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 53.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 38 - Current Pareto front scores:
+-1	0.8698901438193551	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7500000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=15, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8911173839005786	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.6000000000000001, ElasticNetCV__tol=0.001)
+-4	0.8920909043707322	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(input_matrix, GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=11, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.45)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+-5	0.8923723095707745	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(ElasticNetCV(input_matrix, ElasticNetCV__l1_ratio=0.5, ElasticNetCV__tol=0.0001), GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=11, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.45)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+_pre_test decorator: _random_mutation_operator: num_test=0 feature_names mismatch: ['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_company'] ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7']
+expected car_company, weight, horsepower, cylinders, acceleration, model_year, displacement, origin in input data
+training data did not have the following fields: f3, f4, f6, f2, f1, f7, f0, f5.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 39 - Current Pareto front scores:
+-1	0.8698901438193551	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7500000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=15, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8911173839005786	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.6000000000000001, ElasticNetCV__tol=0.001)
+-4	0.8920909043707322	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(input_matrix, GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=11, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.45)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+-5	0.8923723095707745	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(ElasticNetCV(input_matrix, ElasticNetCV__l1_ratio=0.5, ElasticNetCV__tol=0.0001), GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=11, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.45)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+Periodic pipeline was not saved, probably saved before...
+_pre_test decorator: _random_mutation_operator: num_test=0 '(slice(None, None, None), 0)' is an invalid key.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=1 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 array must not contain infs or NaNs.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 40 - Current Pareto front scores:
+-1	0.8698901438193551	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7500000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=15, ExtraTreesRegressor__n_estimators=100)
+-2	0.8854420024728578	LassoLarsCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=True)
+-3	0.8911173839005786	ElasticNetCV(PolynomialFeatures(StandardScaler(input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.6000000000000001, ElasticNetCV__tol=0.001)
+-4	0.8920909043707322	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(input_matrix, GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=11, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.45)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+-5	0.8923723095707745	LassoLarsCV(PolynomialFeatures(RobustScaler(GradientBoostingRegressor(ElasticNetCV(input_matrix, ElasticNetCV__l1_ratio=0.5, ElasticNetCV__tol=0.0001), GradientBoostingRegressor__alpha=0.8, GradientBoostingRegressor__learning_rate=0.001, GradientBoostingRegressor__loss=lad, GradientBoostingRegressor__max_depth=4, GradientBoostingRegressor__max_features=0.35000000000000003, GradientBoostingRegressor__min_samples_leaf=11, GradientBoostingRegressor__min_samples_split=6, GradientBoostingRegressor__n_estimators=100, GradientBoostingRegressor__subsample=0.45)), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), LassoLarsCV__normalize=False)
+
+Pipeline(memory=None,
+         steps=[('stackingestimator-1',
+                 StackingEstimator(estimator=ElasticNetCV(alphas=None,
+                                                          copy_X=True, cv=None,
+                                                          eps=0.001,
+                                                          fit_intercept=True,
+                                                          l1_ratio=0.5,
+                                                          max_iter=1000,
+                                                          n_alphas=100,
+                                                          n_jobs=None,
+                                                          normalize=False,
+                                                          positive=False,
+                                                          precompute='auto',
+                                                          random_state=42,
+                                                          selection='cyclic',
+                                                          tol=0.0001,
+                                                          verbose=0))),
+                ('stackingestimator-2',
+                 StackingEstima...
+                              with_centering=True, with_scaling=True)),
+                ('polynomialfeatures',
+                 PolynomialFeatures(degree=2, include_bias=False,
+                                    interaction_only=False, order='C')),
+                ('lassolarscv',
+                 LassoLarsCV(copy_X=True, cv=None, eps=2.220446049250313e-16,
+                             fit_intercept=True, max_iter=500,
+                             max_n_alphas=1000, n_jobs=None, normalize=False,
+                             positive=False, precompute='auto',
+                             verbose=False))],
+         verbose=False)
+
+[2020-04-06/22:02:16]	TPOT Finished
+
+
+
+[2020-04-07/13:50:27]	TPOT Begins
+
+Generations=30	Population_Size=30	Max_Time=None	PIPE=pipe5
+
+30 operators have been imported by TPOT.
+Generation 1 - Current Pareto front scores:
+-1	0.8447558966113824	AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 2 - Current Pareto front scores:
+-1	0.8447558966113824	AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 X contains negative values..
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 3 - Current Pareto front scores:
+-1	0.8447558966113824	AdaBoostRegressor(input_matrix, AdaBoostRegressor__learning_rate=1.0, AdaBoostRegressor__loss=exponential, AdaBoostRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 83.
+Generation 4 - Current Pareto front scores:
+-1	0.8609555048886094	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 5 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 X contains negative values..
+Generation 6 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+Generation 7 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+Generation 8 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 9 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 l1 was provided as affinity. Ward can only work with euclidean distances..
+Generation 10 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 11 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+Generation 12 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 61.
+Generation 13 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 X needs to contain only non-negative integers..
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 14 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Generation 15 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 16 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.881882055264253	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=1e-05)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 87.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 17 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.8827708437624846	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9500000000000001, ElasticNetCV__tol=1e-05)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Generation 18 - Current Pareto front scores:
+-1	0.8629724425116251	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=3, ExtraTreesRegressor__min_samples_split=8, ExtraTreesRegressor__n_estimators=100)
+-2	0.8827708437624846	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9500000000000001, ElasticNetCV__tol=1e-05)
+
+Generation 19 - Current Pareto front scores:
+-1	0.8629816032754027	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=5, ExtraTreesRegressor__min_samples_split=14, ExtraTreesRegressor__n_estimators=100)
+-2	0.882783752312449	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9500000000000001, ElasticNetCV__tol=0.0001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 manhattan was provided as affinity. Ward can only work with euclidean distances..
+_pre_test decorator: _random_mutation_operator: num_test=1 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 85.
+Invalid pipeline encountered. Skipping its evaluation.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 20 - Current Pareto front scores:
+-1	0.8629816032754027	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=5, ExtraTreesRegressor__min_samples_split=14, ExtraTreesRegressor__n_estimators=100)
+-2	0.882783752312449	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9500000000000001, ElasticNetCV__tol=0.0001)
+
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 21 - Current Pareto front scores:
+-1	0.8629816032754027	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=False, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=5, ExtraTreesRegressor__min_samples_split=14, ExtraTreesRegressor__n_estimators=100)
+-2	0.882783752312449	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9500000000000001, ElasticNetCV__tol=0.0001)
+-3	0.8884620963581883	ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.043000000000000003), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=0.0001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 22 - Current Pareto front scores:
+-1	0.8692865739044595	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=2, ExtraTreesRegressor__n_estimators=100)
+-2	0.882783752312449	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9500000000000001, ElasticNetCV__tol=0.0001)
+-3	0.8884620963581883	ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.043000000000000003), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=0.0001)
+
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 23 - Current Pareto front scores:
+-1	0.8692865739044595	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=2, ExtraTreesRegressor__n_estimators=100)
+-2	0.882783752312449	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9500000000000001, ElasticNetCV__tol=0.0001)
+-3	0.8884620963581883	ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.043000000000000003), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=0.0001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 l2 was provided as affinity. Ward can only work with euclidean distances..
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 24 - Current Pareto front scores:
+-1	0.8692865739044595	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=2, ExtraTreesRegressor__n_estimators=100)
+-2	0.882783752312449	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9500000000000001, ElasticNetCV__tol=0.0001)
+-3	0.8884620963581883	ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.043000000000000003), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=0.0001)
+
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 25 - Current Pareto front scores:
+-1	0.8692865739044595	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=2, ExtraTreesRegressor__n_estimators=100)
+-2	0.882783752312449	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9500000000000001, ElasticNetCV__tol=0.0001)
+-3	0.8884620963581883	ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.043000000000000003), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=0.0001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 64.
+Generation 26 - Current Pareto front scores:
+-1	0.8692865739044595	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=2, ExtraTreesRegressor__n_estimators=100)
+-2	0.882783752312449	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9500000000000001, ElasticNetCV__tol=0.0001)
+-3	0.8884620963581883	ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.043000000000000003), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=0.0001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 manhattan was provided as affinity. Ward can only work with euclidean distances..
+Invalid pipeline encountered. Skipping its evaluation.
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Generation 27 - Current Pareto front scores:
+-1	0.8692865739044595	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=2, ExtraTreesRegressor__n_estimators=100)
+-2	0.882783752312449	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9500000000000001, ElasticNetCV__tol=0.0001)
+-3	0.8884620963581883	ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.043000000000000003), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=0.0001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 X contains negative values..
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 100.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 84.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 28 - Current Pareto front scores:
+-1	0.8692865739044595	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=2, ExtraTreesRegressor__n_estimators=100)
+-2	0.882783752312449	ElasticNetCV(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9500000000000001, ElasticNetCV__tol=0.0001)
+-3	0.8884620963581883	ElasticNetCV(PolynomialFeatures(SelectFwe(input_matrix, SelectFwe__alpha=0.043000000000000003), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=0.0001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Unsupported set of arguments: The combination of penalty='l2' and loss='epsilon_insensitive' are not supported when dual=False, Parameters: penalty='l2', loss='epsilon_insensitive', dual=False.
+_pre_test decorator: _random_mutation_operator: num_test=0 manhattan was provided as affinity. Ward can only work with euclidean distances..
+_pre_test decorator: _random_mutation_operator: num_test=0 Expected n_neighbors <= n_samples,  but n_samples = 50, n_neighbors = 77.
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Pipeline encountered that has previously been evaluated during the optimization process. Using the score from the previous evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 29 - Current Pareto front scores:
+-1	0.8692865739044595	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=2, ExtraTreesRegressor__n_estimators=100)
+-2	0.8827983003704857	ElasticNetCV(PolynomialFeatures(CombineDFs(input_matrix, input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=0.0001)
+-3	0.8889194331157595	ElasticNetCV(PolynomialFeatures(SelectPercentile(input_matrix, SelectPercentile__percentile=54), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=0.0001)
+
+_pre_test decorator: _random_mutation_operator: num_test=0 Found array with 0 feature(s) (shape=(50, 0)) while a minimum of 1 is required..
+Invalid pipeline encountered. Skipping its evaluation.
+Generation 30 - Current Pareto front scores:
+-1	0.8692865739044595	ExtraTreesRegressor(input_matrix, ExtraTreesRegressor__bootstrap=True, ExtraTreesRegressor__max_features=0.7000000000000001, ExtraTreesRegressor__min_samples_leaf=1, ExtraTreesRegressor__min_samples_split=2, ExtraTreesRegressor__n_estimators=100)
+-2	0.8827983003704857	ElasticNetCV(PolynomialFeatures(CombineDFs(input_matrix, input_matrix), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=0.0001)
+-3	0.8889194331157595	ElasticNetCV(PolynomialFeatures(SelectPercentile(input_matrix, SelectPercentile__percentile=54), PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), ElasticNetCV__l1_ratio=0.9, ElasticNetCV__tol=0.0001)
+
+Pipeline(memory=None,
+         steps=[('selectpercentile',
+                 SelectPercentile(percentile=54,
+                                  score_func=<function f_regression at 0x7fbeecc0c040>)),
+                ('polynomialfeatures',
+                 PolynomialFeatures(degree=2, include_bias=False,
+                                    interaction_only=False, order='C')),
+                ('elasticnetcv',
+                 ElasticNetCV(alphas=None, copy_X=True, cv=None, eps=0.001,
+                              fit_intercept=True, l1_ratio=0.9, max_iter=1000,
+                              n_alphas=100, n_jobs=None, normalize=False,
+                              positive=False, precompute='auto',
+                              random_state=42, selection='cyclic', tol=0.0001,
+                              verbose=0))],
+         verbose=False)
+
+[2020-04-07/16:03:11]	TPOT Finished

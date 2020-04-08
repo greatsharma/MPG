@@ -1,0 +1,66 @@
+
+
+
+[2020-04-06/10:17:57]	RandomizedSearchCV Begins,  pipe8
+
+-------PARAM GRID---------
+
+[{'estimator': [LinearRegression(copy_X=True, fit_intercept=True, n_jobs=-1, normalize=False)]},
+ {'estimator': [RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=100, n_jobs=-1, oob_score=False,
+                      random_state=42, verbose=0, warm_start=False)],
+  'estimator__max_depth': range(4, 11),
+  'estimator__max_leaf_nodes': [6, 8, 10, 12, 14, 16, 18, 20],
+  'estimator__min_samples_split': [6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26],
+  'estimator__n_estimators': [50, 100, 150, 200, 250, 300, 350]},
+ {'estimator': [ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=100, n_jobs=-1, oob_score=False,
+                    random_state=42, verbose=0, warm_start=False)],
+  'estimator__max_depth': range(4, 11),
+  'estimator__max_leaf_nodes': [6, 8, 10, 12, 14, 16, 18, 20],
+  'estimator__min_samples_split': [6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26],
+  'estimator__n_estimators': [50, 100, 150, 200, 250, 300, 350]},
+ {'estimator': [GradientBoostingRegressor(alpha=0.9, ccp_alpha=0.0, criterion='friedman_mse',
+                          init=None, learning_rate=0.1, loss='ls', max_depth=3,
+                          max_features=None, max_leaf_nodes=None,
+                          min_impurity_decrease=0.0, min_impurity_split=None,
+                          min_samples_leaf=1, min_samples_split=2,
+                          min_weight_fraction_leaf=0.0, n_estimators=100,
+                          n_iter_no_change=None, presort='deprecated',
+                          random_state=42, subsample=1.0, tol=0.0001,
+                          validation_fraction=0.1, verbose=0, warm_start=False)],
+  'estimator__max_depth': range(4, 11),
+  'estimator__max_leaf_nodes': [6, 8, 10, 12, 14, 16, 18, 20],
+  'estimator__min_samples_split': [6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26],
+  'estimator__n_estimators': [50, 100, 150, 200, 250, 300, 350]},
+ {'estimator': [AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=42)],
+  'estimator__n_estimators': [50, 100, 150, 200, 250, 300, 350]}]
+
+
+Fitting 5 folds for each of 1200 candidates, totalling 6000 fits
+
+best params->
+{'estimator': ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=8, max_features='auto', max_leaf_nodes=20,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=20, min_weight_fraction_leaf=0.0,
+                    n_estimators=100, n_jobs=-1, oob_score=False,
+                    random_state=42, verbose=0, warm_start=False),
+ 'estimator__max_depth': 8,
+ 'estimator__max_leaf_nodes': 20,
+ 'estimator__min_samples_split': 20,
+ 'estimator__n_estimators': 100}
+
+best score-> 0.853735958206245
+
+[2020-04-06/10:31:30]	RandomizedSearchCV Finished
