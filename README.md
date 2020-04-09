@@ -43,3 +43,4 @@ This data is not complex and is good for analysis as it has a nice blend of both
 <sup>[data source](https://archive.ics.uci.edu/ml/datasets/auto+mpg)<sup>
 
 
+<span style="color:red">**If you like this project then please star it and also share with others.**<span>
